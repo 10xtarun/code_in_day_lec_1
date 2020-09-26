@@ -2,17 +2,17 @@
 <html>
     <head>
         <title>Index Page</title>
-        <style>
-            h1 {
-                border: 3px solid red;
-            }
-            p {
-                color: red;
-            }
-        </style>
+        <link href="style.css" rel="stylesheet" >
     </head>
     <body>
         <h1>Hello World!!!</h1>
         <p>This is our first project.</p>
+        <button id="btnID" onclick="trigger()">Click Me!</button>
     </body>
+    <script>
+        function trigger() {
+            let btn = document.getElementById('btnID');
+            alert("Hey, you have clicked the button.")
+        }
+    </script>
 </html>
