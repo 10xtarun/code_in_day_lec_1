@@ -1,3 +1,30 @@
 .fontcolor {
     color: red;
 }
+.div-space{
+    border: 2px solid black;
+    color: blue;
+}
+.space {
+    padding: 20px;
+    margin: 0px;
+    border: 2px solid black;
+}
+.para-space{
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 20px;
+
+}
+.para2-space{
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.random-para {
+    color: red;
+}
